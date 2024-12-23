@@ -1,0 +1,64 @@
+# Xcode
+*.xcuserdata/
+xcuserdata/
+*.xcworkspace/
+DerivedData/
+.idea/
+*.moved-aside
+*.xcuserstate
+
+# Build artifacts
+build/
+*.ipa
+*.app
+*.dSYM.zip
+*.dSYM
+
+# Logs
+*.log
+*.xcdebugger/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Provisioning Profiles
+*.mobileprovision
+*.provisionprofile
+
+# Custom Rules
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Temporary/Backup Files
+*.swp
+*.swm
+*.swo
+*.bak
+*~
+

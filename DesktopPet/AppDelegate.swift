@@ -34,6 +34,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             defer: false
         )
         window.isOpaque = false
+        // this is to make background clear. making it not clear for dev
 //        window.backgroundColor = .clear
         window.level = .floating          // Always on top
         window.ignoresMouseEvents = true  // Non-interactive
